@@ -7,7 +7,7 @@ import java.sql.Statement;
 public class Practice1 {
 
 	public static void main(String[] args) throws Exception{
-		Class.forName("com.mysql.jdbc.Driver");
+		Class.forName("com.mysql.cj.jdbc.Driver");
 		
 		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/DEMO","root","Biswajeet@12345");
 		
