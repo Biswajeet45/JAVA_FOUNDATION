@@ -7,7 +7,7 @@ import java.sql.Statement;
 public class SimpleDeclaration {
 
 	public static void main(String[] args) throws Exception{
-		Class.forName("com.mysql.jdbc.Driver");
+		Class.forName("com.mysql.cj.jdbc.Driver");
 		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/Database1","root","Biswajeet@12345");
 		
 		System.out.println("READ OPERATION:");
